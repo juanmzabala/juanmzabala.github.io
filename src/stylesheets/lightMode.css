@@ -1,0 +1,14 @@
+.lightButton{
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+.light{
+    background-color: #F5C828;
+}
+
+.night{
+    background-color: #1a6373;   
+}

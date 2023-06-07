@@ -1,0 +1,153 @@
+{
+    "spa":
+        {
+            "navBar":{
+                "proyects":"proyectos",
+                "about":"sobre mi",
+                "contact":"contacto"
+            },
+            "hello":{
+                "hello":"Hola!",
+                "iam":"Soy",
+                "developer":"Desarrollador Web y",
+                "designer":"Diseñador Gráfico",
+                "sub1":"Continua bajando y conocé",
+                "sub2":"más de mi y mis trabajos",
+                "sub":"Continua bajando y conocé más de mi y mis trabajos"
+            },
+            "proyects":{
+                "title":"PROYECTOS",
+                "seeInfo":"ver info",
+                "seeCode":"ver código",
+                "liveView":"ejecutar",
+                "proyectsInfo": 
+                    {"1":{"title":"ShareXpenses",
+                        "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                        "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                        "photo":"1",
+                        "linkGit":"https://github.com/juanmzabala/ShareXpenses",
+                        "linkLive":"https://juanmzabala.github.io/ShareXpenses/"},
+                    "2":{"title":"Country Finder",
+                        "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                        "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                        "photo":"2",
+                        "linkGit":"https://github.com/juanmzabala/country_finder",
+                        "linkLive":"https://juanmzabala.github.io/country_finder/"},
+                    "3":{"title":"Chooser",
+                        "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                        "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                        "photo":"3",
+                        "linkGit":"https://github.com/juanmzabala/chooser",
+                        "linkLive":"https://juanmzabala.github.io/chooser/"},
+                    "4":{"title":"Seguridad NET",
+                        "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                        "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                        "photo":"4",
+                        "linkGit":"https://github.com/juanmzabala/ShareXpenses",
+                        "linkLive":"https://juanmzabala.github.io/ShareXpenses/"}
+                    },
+                "seeMore":"ver más en..."
+            },
+            "about":{
+                "iam":"Soy",
+                "description":"Soy apasionado en buscar soluciones para problemas cotidianos. Siempre busco aprender y tengo muchas ideas nuevas en mente todo el tiempo.",
+                "technologies":"TECNOLOGÍAS"
+            },
+            "contact":{
+                "contactTitle":"CONTACTO",
+                "emailTitle":"ESCRIBEME",
+                "nameLastName":"nombre y apellido",
+                "placeNameLastName":"minombre miapellido",
+                "placeEmail":"miemail@mail.com",
+                "telephone":"teléfono",
+                "message":"mensaje",
+                "placeMessage":"Hola! Queria consultar por...",
+                "send":"enviar",
+                "sending":"enviando...",
+                "sendOk":"Mensaje enviado exitosamente",
+                "serverError":{
+                    "1":"Tenemos un error en nuestro servidor...",
+                    "2":"Intente luego"},
+                "error":{"1":"Falló el envío",
+                        "2":"Intente luego"},
+                "incomplete":{"1":"Hay campos vacíos",
+                                "2":"o erróneos. Revise"}
+
+            }
+}, "eng":
+{
+    "navBar":{
+        "proyects":"proyects",
+        "about":"about",
+        "contact":"contact"
+    },
+    "hello":{
+        "hello":"Hello!",
+        "iam":"I'am",
+        "developer":"Web developer and",
+        "designer":"Graphic Designer",
+        "sub1":"Keep scrolling down and get to",
+        "sub2":"know more about me and my work",
+        "sub":"Keep scrolling down and get to know more about me and my work"
+    },
+    "proyects":{
+        "title":"PROYECTS",
+        "seeInfo":"see info",
+        "seeCode":"see code",
+        "liveView":"live view",
+        "proyectsInfo": 
+            {"1":{"title":"ShareXpenses",
+                "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                "photo":"1",
+                "linkGit":"https://github.com/juanmzabala/ShareXpenses",
+                "linkLive":"https://juanmzabala.github.io/ShareXpenses/"},
+            "2":{"title":"Country Finder",
+                "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                "photo":"2",
+                "linkGit":"https://github.com/juanmzabala/country_finder",
+                "linkLive":"https://juanmzabala.github.io/country_finder/"},
+            "3":{"title":"Chooser",
+                "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                "photo":"3",
+                "linkGit":"https://github.com/juanmzabala/chooser",
+                "linkLive":"https://juanmzabala.github.io/chooser/"},
+            "4":{"title":"Seguridad NET",
+                "info":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nunc tincidunt erat non arcu consequat, ac posuere est venenatis. Morbi vel metus non massa fermentum efficitur. Donec pulvinar porta nunc hendrerit feugiat. Nulla id nisi sed augue fringilla ullamcorper. Etiam ac tempus magna. Vivamus volutpat faucibus massa in molestie.",
+                "shortInfo":"Sed velit diam, commodo et gravida ut, tincidunt eu magna.",
+                "photo":"4",
+                "linkGit":"https://github.com/juanmzabala/ShareXpenses",
+                "linkLive":"https://juanmzabala.github.io/ShareXpenses/"}
+            },
+        "seeMore":"see more..."
+    },
+    "about":{
+        "iam":"I'am",
+        "description":"I am passionate about seeking solutions to everyday problems. I am always eager to learn and constantly have many new ideas in mind.",
+        "technologies":"TECHNOLOGIES"
+    },
+    "contact":{
+        "contactTitle":"CONTACT",
+        "emailTitle":"SEND MESSAGE",
+        "nameLastName":"name and last name",
+        "placeNameLastName":"myname mylastname",
+        "placeEmail":"myemail@mail.com",
+        "telephone":"telephone",
+        "message":"message",
+        "placeMessage":"Hello! I wanted to inquire about...",
+        "send":"send",
+        "sending":"sending...",
+        "sendOk":"Message sent successfully",
+        "serverError":{
+            "1":"We have an error on our server...",
+            "2":"Please try again later"},
+        "error":{"1":"The submission failed.",
+                "2":"Please try again later."},
+        "incomplete":{"1":"There are empty or incorrect fields.",
+                        "2":"Please review"}
+
+    }
+}
+}

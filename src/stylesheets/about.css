@@ -1,0 +1,223 @@
+.containerAbout{
+    width: 100vw;
+    min-height: 720px;
+    height: 100vh;
+    background-color: #fffffa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.topAbout{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+}
+
+.line5{
+    width: 270px;
+    height: 100%;
+    border-radius: 0px 0px 50px 0px;
+    background-color: #2D899E;
+}
+
+.middleAbout{
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoAbout img{
+    margin-top:0px;
+    width: 215px;
+    height: 215px;
+    border-radius: 100px;
+}
+.textAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.soy{
+    font-size: 26px;
+    width: 100%;
+    text-align: left;
+    margin: -10px 0px 0px 0px;
+    padding-left: 50px;
+    color: #000;
+}
+.textContactNight{
+    color: #fffffa;
+}
+.juanZabala{
+    font-size: 45px;
+    font-weight: 900;
+    margin:-15px 0px -5px 0px;
+}
+
+.subtitleOcupation{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.subtitle1{
+    justify-content: left;
+}
+.subtitle2{
+    justify-content: right;
+    margin-top: -5px;
+}
+
+.descriptionAbout{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key1 img{
+    margin-left: 15px;
+    min-height: 130px;
+    width: 50px;
+}
+.key2 img{
+    z-index: -2990;
+    margin-right: 15px;
+    min-height: 130px;
+    width: 50px;
+}
+.textDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+.textDescription p{
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+
+
+.technologies{
+    margin:0px 30px
+}
+
+.technologies h3{
+    margin:0px 0px 5px 0px;
+    font-family: 'Source Code Pro', monospace;
+    color: #2D899E;
+}
+
+.technologies p{
+    margin:0px 0px 5px 0px; 
+}
+@media(768px< width <1080px){
+   
+}
+
+@media(width>=1080px){
+    .topAbout{
+        height: 15%;
+    }
+    
+    .line5{
+        width: 75%;
+    }
+    .middleAbout{
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1.5fr 2.5fr;
+        grid-template-rows: 2fr 1fr;
+        text-align: center;
+    }
+
+    .technologies p{
+        text-align: left;
+    }
+    .technologies h3{
+        text-align: left;
+    }
+    .photoAbout img{
+        width: 75%;
+        height: 75%;
+        border-radius: 400px;
+    }
+    .juanZabala{
+        font-size: 90px;
+    }
+    .soy{
+        font-size: 50px;
+        margin:-20px 0px -10px 40px;
+    }
+    .subtitleOcupation{
+        font-size: 35px;
+    }
+    .subtitle1{
+        margin-left: 30px;
+    }
+    .subtitle2{
+        margin-right: 30px;
+    }
+}
+@media(width>=1280px){
+    .topAbout{
+        height: 15%;
+    }
+    
+    .line5{
+        width: 75%;
+    }
+    .middleAbout{
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1.5fr 2.5fr;
+        grid-template-rows: 2fr 1fr;
+        text-align: center;
+    }
+
+    .technologies p{
+        text-align: left;
+    }
+    .technologies h3{
+        text-align: left;
+    }
+    .photoAbout img{
+        width: 75%;
+        height: 75%;
+        border-radius: 400px;
+    }
+    .juanZabala{
+        font-size: 110px;
+    }
+    .soy{
+        font-size: 50px;
+        margin:-20px 0px -30px 40px;
+    }
+    .subtitleOcupation{
+        font-size: 35px;
+    }
+    .subtitle1{
+        margin-left: 30px;
+    }
+    .subtitle2{
+        margin-right: 30px;
+    }
+}

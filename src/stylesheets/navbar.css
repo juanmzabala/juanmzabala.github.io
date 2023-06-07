@@ -1,7 +1,7 @@
 .navBar{
     position:fixed;
-    top:0;
-    
+    top:0; 
+    z-index: 4000 !important;
 }
 .mobile{
     display: flex;
@@ -9,16 +9,229 @@
     justify-content: space-between;
     width: 100vw;
     height: 70px;
-    background-color: #fffffa
+    background-color: rgb(255, 255, 250,0.8);
+    
+}
+.desktop{
+    display: none;
+}
+
+
+.logo{
+    cursor:pointer;
 }
 .logo img{
-    min-width: 130px;
+    min-width: 140px;
     margin: 10px 0 0 30px;
-    cursor:pointer;
 }
 
 .options{
     min-width: 60px;
+    height: auto;
     margin-right: 10px;
     cursor:pointer;
 }
+.optionsNight{
+    color: #fffffa;
+}
+
+.modalOpen{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:0;
+    align-items: center;
+    justify-content:space-between;
+    z-index: 3000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffffa;
+}
+
+.modalOpenNight{
+    background-color: #151515;
+}
+
+.logoModal img{
+    min-width: 200px;
+    cursor:pointer; 
+}
+.logoModal{
+    margin-top:80px;
+}
+
+.linksPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linksModal{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    background-color: #F5C828;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    color:#000;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+.exit button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    margin-bottom: 80px;
+    cursor: pointer;
+    background-color: #fffffa;;
+}
+
+.exitNight button{
+    background-color: #151515;
+    color:#fff;
+}
+
+.externalLinks{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap:30px;
+}
+
+.containerLink{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #F5C828;
+    color:#000;
+}
+
+.desktop{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 110px;
+    background-color: rgb(255, 255, 250,0.8);
+}
+.logoDesktop{
+    cursor: pointer;
+}
+.logoDesktop img{
+    min-width: 200px;
+    margin: 10px 0 0 30px;
+}
+.linksPageDesktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.linksDesktop{
+    font-size: 22px;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.4s ease-in left;
+}
+.linksDesktop:hover{
+    background-color: #F5C828;
+    color: #000;
+}
+
+.externalLinksDesktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    margin-right: 30px;
+ }
+ 
+ .containerLinkDesktop{
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     background-color: #F5C828;
+     color:#000;
+     transition: transform 0.2s ease;
+ }
+ .containerLinkDesktop:hover{
+    transform: scale(1.2);
+ }
+.backgroundBarNight{
+    background-color: rgba(21, 21, 21, 0.8);
+}
+.textBarNight{
+    color:#fffffa;
+}
+
+@media(480px> height){
+    .navBar{
+        position: static;
+    }
+    .backgroundBarNight{
+        background-color: rgb(21, 21, 21);
+    }
+}
+@media(320px<width<=480px){
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
+}
+
+@media (480px<width<=768px){
+    .mobile{
+        display: flex;
+    }
+    .desktop{
+        display: none;
+    }
+}
+
+@media (768px<width<=1080px){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+    .containerLinkDesktop{
+        width: 70px;
+        height: 70px;
+    }
+    .containerLinkDesktop a{
+        transform: scale(1);
+    }
+}
+
+@media(1080px<=width){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: flex;
+    }
+    .linksDesktop{
+        font-size: 26px;
+    }
+    .logoDesktop{
+        margin-left:30px;
+    }
+    .externalLinksDesktop{
+        margin-right:60px ;
+    }
+}
+
