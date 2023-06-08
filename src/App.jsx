@@ -6,13 +6,7 @@ import About from './components/About';
 import Proyects from './components/Proyects';
 import Contact from './components/Contact';
 function App() {
-  let language = navigator.language || navigator.userLanguage;
-  if(language.includes("es")){
-    console.log("Español");
-  }else{
-    console.log("Ke?");
-  }
-  console.log(language);
+ 
   return (
     <div className='appContainer'>
     <ContextProvider>

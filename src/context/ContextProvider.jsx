@@ -8,9 +8,9 @@ export function ContextProvider (props){
     const [isSpa,setIsSpa] = useState("spa");
     const languageState = {isSpa,setIsSpa};
 
+
     const [isLight,setIsLight] = useState(true);
     const lightModeState = {isLight,setIsLight};
-
     return(
         <LightModeContext.Provider value={lightModeState}>
             <LanguageContext.Provider value={languageState}>

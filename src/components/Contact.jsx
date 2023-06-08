@@ -16,6 +16,7 @@ function Contact(){
     const {isLight} = useContext(LightModeContext);
     const {isSpa} = useContext(LanguageContext);
 
+
     //Define variable state for form 
     const [name,setName]=useState("")
     const [message,setMessage] = useState("");
