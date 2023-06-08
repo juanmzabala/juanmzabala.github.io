@@ -1,11 +1,18 @@
+//Import CSS
+import '../stylesheets/hello.css';
+
+//Import Context
 import { useContext } from 'react';
 import { LightModeContext,LanguageContext } from '../context/ContextProvider';
+
+//Import text from .json
 import text from '../assets/text.json'
-import '../stylesheets/hello.css';
+
 
 
 
 function Hello(){
+    //Declaration of Context
     const {isLight} = useContext(LightModeContext);
     const {isSpa} = useContext(LanguageContext);
 

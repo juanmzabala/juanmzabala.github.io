@@ -1,15 +1,33 @@
 import '../stylesheets/language.css'
-import { useContext } from 'react';
+import { useContext,useEffect } from 'react';
 import { LanguageContext } from '../context/ContextProvider';
 
 
 function Language (){
     //State for Language
     const {isSpa,setIsSpa} = useContext(LanguageContext);
+
+    useEffect(()=>{
+        if (localStorage.getItem('language')){
+            if(localStorage.getItem('language')==="spa"){
+                setIsSpa("spa")
+            }else{
+                setIsSpa("eng")
+            }
+        }else{
+            localStorage.setItem('language',isSpa);
+        }
+      },[]);
     
     //Function handler for Language Button
     const handleLanguage = ()=>{
-        isSpa==="spa" ? setIsSpa("eng"):setIsSpa("spa");
+        if(isSpa==="spa"){
+            setIsSpa("eng")
+            localStorage.setItem('language',"eng");
+        }else{
+            setIsSpa("spa")
+            localStorage.setItem('language',"spa");
+        }
     }
 
     if (isSpa==="spa"){

@@ -11,7 +11,6 @@ function LightMode(){
     const {isLight,setIsLight} = useContext(LightModeContext);
 
   useEffect(()=>{
-    
     if (localStorage.getItem('theme')){
         if(localStorage.getItem('theme')==='true'){
             setIsLight(true)
@@ -21,7 +20,6 @@ function LightMode(){
     }else{
         localStorage.setItem('theme',isLight);
     }
-    console.log(localStorage.getItem('theme'));
   },[]);
 
 
@@ -30,7 +28,6 @@ function LightMode(){
     const handleLightButton = ()=>{
         isLight ? setIsLight(false) : setIsLight(true);
         localStorage.setItem('theme',!isLight);
-
     }
 
   

@@ -1,3 +1,4 @@
+/*Style for Mobile version*/
 .containerHello{
     width: 100vw;
     min-height: 720px;
@@ -53,7 +54,6 @@
     margin-top: -60px;
     
 }
-
 .subtitle p{
     font-size: 26px;
     font-weight: 300;
@@ -95,6 +95,8 @@
     animation: 2s linear 1s infinite alternate moveCircle1;
 }
 
+
+/*Animation for circle*/
 @keyframes moveCircle1{
     from{
         transform: translateX(0);
@@ -103,7 +105,7 @@
         transform: translateX(110px);
     }
 }
-
+/*Style for Mobile*/
 .invitation p{
     font-size: 20px;
     margin:0 auto;
@@ -128,11 +130,14 @@
     color: #fffffa;
 }
 
+/*Style for others screen*/
+
 @media(480px> height){
     .topHello{
         height: 0%;
     }
 }
+
 @media(480px< width <= 768px ){
     .topHello{
         height: 15%;
@@ -436,6 +441,4 @@
         background-color: #F5C828;
         border-radius: 100px 100px 0px 0px;
     }
-   
-
 }

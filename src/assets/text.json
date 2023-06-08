@@ -50,6 +50,8 @@
             },
             "about":{
                 "iam":"Soy",
+                "sub1":"Desarrollador Full Stack y",
+                "sub2":"Diseñador Gráfico Freelance",
                 "description":"Soy apasionado en buscar soluciones para problemas cotidianos. Siempre busco aprender y tengo muchas ideas nuevas en mente todo el tiempo.",
                 "technologies":"TECNOLOGÍAS"
             },
@@ -125,6 +127,8 @@
     },
     "about":{
         "iam":"I'am",
+        "sub1":"Full Stack Developer and",
+        "sub2":"Graphic Designer Freelancer",
         "description":"I am passionate about seeking solutions to everyday problems. I am always eager to learn and constantly have many new ideas in mind.",
         "technologies":"TECHNOLOGIES"
     },
