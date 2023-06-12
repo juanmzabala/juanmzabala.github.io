@@ -168,29 +168,23 @@ function Contact(){
                     <div className="titleContact">
                         <h2>{text[isSpa].contact.contactTitle}</h2>
                     </div>
-                    <div className="social">
-                        <div>
+                <div className="social">
                             <a href="mailto:juanmzabala@gmail.com"
                             target='_blank'
                             className="containerLinkContact">
                                 <HiOutlineMail size="2.4em"/>
                             </a>
-                        </div>
-                        <div>
                             <a href="https://www.linkedin.com/in/juanmzabala/"
                             target="_blank"
                             className="containerLinkContact">
                                 <BsLinkedin size="2.4em"/>
                             </a>
-                        </div>
-                        <div>
                             <a href="https://github.com/juanmzabala"
                             target="_blank"
                             className="containerLinkContact">
                                 <BsGithub size="2.4em"/>
                             </a>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div className="mailBox">
                     <div className='middleBottom'>
@@ -254,7 +248,7 @@ function Contact(){
                 </div>
                 <div className="barContent">
                     <div className="barCopy">
-                        Juan Zabala © 2023
+                        <p>Juan Zabala © 2023</p> 
                     </div>
                     <div className="optionsConfig">
                         <div className="language">
